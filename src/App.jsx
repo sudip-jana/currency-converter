@@ -34,7 +34,7 @@ function App() {
     style={{backgroundImage: `url(https://images.pexels.com/photos/164527/pexels-photo-164527.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)`}}
     >
       <div className='w-full'>
-       <div className='w-[40%] ml-auto mr-10 border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30'>
+       <div className="w-full sm:w-[80%] md:w-[60%] lg:w-[40%] ml-auto mr-4 border border-gray-600 rounded-lg p-5 backdrop-blur-sm bg-white/30">
 
           <form onSubmit={(e) => {
             e.preventDefault()
